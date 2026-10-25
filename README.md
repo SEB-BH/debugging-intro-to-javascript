@@ -3,6 +3,19 @@
   <span class="headline">Intro to JavaScript: Debugging Olympics</span>
 </h1>
 
+## Solution
+
+| # | Broken code | Fix | Concept |
+|---|---|---|---|
+| 1 | `cosnt companyName` | `const companyName` | JavaScript keyword spelling |
+| 2 | `const developerName = Aisha` | Add quotes around `'Aisha'` | String values |
+| 3 | `let tasksCompleted = '3'` | Change `'3'` to `3` | Number vs. string (`typeof`) |
+| 4 | `let isAvailable = 'true'` | Change `'true'` to `true` | Boolean vs. string (`typeof`) |
+| 5 | `const currentProject = 'Unassigned'` | Change `const` to `let` | Reassignment |
+| 6 | `console.Log(...)` | Use `console.log(...)` | Method names are case-sensitive |
+| 7 | `developername` | Use `developerName` | Variable names are case-sensitive |
+| 8 | `const updateMessage = '${...}'` | Use backticks instead of single quotes | Template literals and interpolation |
+
 ## About
 
 Welcome to the **Debugging Olympics**! A small software company in Bahrain has a broken JavaScript program. Your job is to find and fix the bugs.
