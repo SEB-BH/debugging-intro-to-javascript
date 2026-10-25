@@ -10,6 +10,7 @@
 3. Open the project folder in VS Code.
 4. Open the terminal in VS Code (**Terminal → New Terminal**).
 5. Copy and paste the following broken code into `app.js`:
+
   ```js
   // This program prints a developer's status before and after a team meeting.
 
@@ -43,7 +44,7 @@
   const updateMessage = '${developerName} at ${companyName} is working on ${currentProject}.'
   console.log(updateMessage)
   ```
-  
+
 6. Run:
 
 ```bash

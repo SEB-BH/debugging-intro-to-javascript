@@ -1,10 +1,10 @@
 // This program prints a developer's status before and after a team meeting.
 
-cosnt companyName = 'Pearl Digital'
-const developerName = Aisha
+const companyName = 'Pearl Digital'
+const developerName = 'Aisha'
 let tasksCompleted = '3'
 let isAvailable = 'true'
-const currentProject = 'Unassigned'
+let currentProject = 'Unassigned'
 let mentorName
 
 console.log('--- Before the meeting ---')
@@ -20,8 +20,8 @@ isAvailable = false
 currentProject = 'Client Portal'
 mentorName = 'Fatima'
 
-console.Log('--- After the meeting ---')
-console.log('Developer:', developername)
+console.log('--- After the meeting ---')
+console.log('Developer:', developerName)
 console.log('Tasks completed:', tasksCompleted)
 console.log('Available:', isAvailable)
 console.log('Project:', currentProject)
